@@ -431,10 +431,10 @@ async function setBackground(query) {
   if (!PEXELS_KEY || PEXELS_KEY.includes('YOUR')) {
     // Use Unsplash source as fallback (no key needed)
     const fallbacks = [
-      'https://source.unsplash.com/1920x1080/?nature,landscape',
-      'https://source.unsplash.com/1920x1080/?city,night',
-      'https://source.unsplash.com/1920x1080/?mountains,fog',
-      'https://source.unsplash.com/1920x1080/?india,aerial',
+      'https://const fallbacks = [   'https://picsum.photos/1920/1080?random=1',   'https://picsum.photos/1920/1080?random=2',   'https://picsum.photos/1920/1080?random=3',   'https://picsum.photos/1920/1080?random=4', ];/1920x1080/?nature,landscape',
+      'https://const fallbacks = [   'https://picsum.photos/1920/1080?random=1',   'https://picsum.photos/1920/1080?random=2',   'https://picsum.photos/1920/1080?random=3',   'https://picsum.photos/1920/1080?random=4', ];/1920x1080/?city,night',
+      'https://const fallbacks = [   'https://picsum.photos/1920/1080?random=1',   'https://picsum.photos/1920/1080?random=2',   'https://picsum.photos/1920/1080?random=3',   'https://picsum.photos/1920/1080?random=4', ];/1920x1080/?mountains,fog',
+      'https://const fallbacks = [   'https://picsum.photos/1920/1080?random=1',   'https://picsum.photos/1920/1080?random=2',   'https://picsum.photos/1920/1080?random=3',   'https://picsum.photos/1920/1080?random=4', ];/1920x1080/?india,aerial',
     ];
     const url = fallbacks[Math.floor(Math.random()*fallbacks.length)];
     crossfadeBg(url);
